@@ -1,0 +1,81 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(55, 55, 255);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width:30%;
+}
+.search-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: black 1px solid;
+    text-align: center;
+    width: 100%;
+    margin-top:-110px;
+    margin-bottom:15px;
+
+}
+#searchbtn{
+    display:block;
+    margin:10px;
+    padding:5px;
+}
+#search-bar{
+    margin-top:10px;
+    padding:5px;
+}
+.history-list li{
+    text-align: center;
+    list-style-type: none;
+    margin:5px;
+    border: black 2px solid;
+    border-radius:10px;
+    padding: 5px;
+    width:200px;
+    background-color:#b8b8b8;
+}
+.results{
+    width:74%;
+    text-align: center;
+    margin-left:5%;
+}
+.today{
+    border:black 1px solid;
+    padding: 15px;
+    text-align:left;
+    width: 70%
+}
+.future{
+    text-align: left;
+}
+.future h2{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.card{
+    text-align: left;
+    background-color: blue;
+    display: inline-block;
+    padding:25px;
+    margin:15px;
+}
